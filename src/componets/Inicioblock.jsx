@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
 
 const Inicioblock = () => {
-  const opcMenu = "mr-5 hover:text-gray-900"
+        const opcMenu = "mr-5 text-gray-900"
+        const EstaActivo = "mr-5 text-red-500"
 
   return (
     <header className="text-gray-600 body-font">
@@ -13,22 +14,9 @@ const Inicioblock = () => {
           <span className="ml-3 text-xl font-semibold">Angela Yisel</span>
         </a>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <NavLink to='/' className={estiloNavlink}>Inicio</NavLink>
-          <NavLink to='/Registro' className={estiloNavlink}>Registro</NavLink>
-          <NavLink to='/Programa'
-            className={({ isActive }) =>
-          isActive
-          ? {EstaActivo}
-          : Estainactivo
-}
->
-  Programa
-</NavLink>
-
-
-          <a className={opcMenu}>First Link</a>
-          <a className={opcMenu}>Second Link</a>
-          <a className={opcMenu}>Third Link</a>
+          <NavLink to="/" className={({ isActive }) => isActive ? EstaActivo : opcMenu}>Inicio</NavLink>
+          <NavLink to="/programa" className={({ isActive }) => isActive ? EstaActivo : opcMenu}>programa</NavLink>
+          <a className={opcMenu}>Tailblock</a>
           <a className={opcMenu}>Fourth Link</a>
         </nav>
         <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
