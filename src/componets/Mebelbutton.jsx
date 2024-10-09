@@ -1,5 +1,5 @@
-function Angelabutton(){
-    const varNombre = 'angela'
+function Mebelbutton(){
+    const varNombre = 'mebel'
     return(
         <>
         <button className="bg-black px-5 py-2 text-white">{varNombre}</button>
@@ -7,4 +7,4 @@ function Angelabutton(){
         </>
     )
 }
-export default Angelabutton;
+export default Mebelbutton;

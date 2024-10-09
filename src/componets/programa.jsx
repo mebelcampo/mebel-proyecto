@@ -1,3 +1,4 @@
+import React from "react";
 function Programa(){
     return(
         <section class="text-gray-600 body-font">

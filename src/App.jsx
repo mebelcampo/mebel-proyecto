@@ -1,11 +1,11 @@
 
 import { Routes, Route } from 'react-router-dom';
 
-import AngelaMenublocks from './componets/AngelaMenublocks.jsx'
-import Inicioblock from './componets/inicioblock.jsx'
-import InicioSec from './pages/iniciosec.jsx';
-import programa from './componets/programa.jsx'
+import MebelMenublocks from './componets/MebelMenublocks.jsx';
+import Inicioblock from './componets/inicioblock.jsx';
 import Programa from './componets/programa.jsx';
+import Usestate from './componets/Usestate.jsx';
+import Usestateobjetos from './componets/Usestateobjetos.jsx';
 function App() {
   return (
     <>
@@ -24,6 +24,19 @@ function App() {
       <Programa/>
 
        </>}></Route>
+
+       <Route path='/Usestate' element={<>
+       
+       <Usestate/>
+       
+       </>} ></Route>
+
+       <Route path='/Usestateobjetos' element={<>
+
+       <Usestateobjetos/>
+
+       </>}></Route>
+
       </Routes>
       
     </div >

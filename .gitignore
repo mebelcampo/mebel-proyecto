@@ -22,3 +22,28 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignorar archivos del sistema de Windows
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+desktop.ini
+NTUSER.*
+
+# Ignorar carpetas específicas del sistema
+/Configuración\ local/
+/Cookies/
+/Datos\ de\ programa/
+/Reciente/
+/SendTo/
+/AppData/
+/Contacts/
+/Documents/
+/Downloads/
+/Favorites/
+/Music/
+/Videos/
+/Saved\ Games/
+/Searches/
+

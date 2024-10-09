@@ -14,8 +14,10 @@ const Inicioblock = () => {
           <span className="ml-3 text-xl font-semibold">Angela Yisel</span>
         </a>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <NavLink to="/" className={({ isActive }) => isActive ? EstaActivo : opcMenu}>Inicio</NavLink>
+          <NavLink to="/" className={({ isActive }) => isActive ? EstaActivo : opcMenu}>Inicio</NavLink>   
           <NavLink to="/programa" className={({ isActive }) => isActive ? EstaActivo : opcMenu}>programa</NavLink>
+          <NavLink to="/Usestate" className={({ isActive }) => isActive ? EstaActivo : opcMenu}>useState</NavLink>
+          <NavLink to="/Usestateobjetos" className={({ isActive }) => isActive ? EstaActivo : opcMenu}>useStateobjetos</NavLink>
           <a className={opcMenu}>Tailblock</a>
           <a className={opcMenu}>Fourth Link</a>
         </nav>

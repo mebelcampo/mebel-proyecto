@@ -1,4 +1,4 @@
-function AngelaMenublocks() {
+function MebelMenublocks() {
     return (
         <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
@@ -76,4 +76,4 @@ function AngelaMenublocks() {
 </section>
     )
 }
-export default AngelaMenublocks;
+export default MebelMenublocks;

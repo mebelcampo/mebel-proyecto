@@ -1,4 +1,4 @@
-export const Angelacompanidado = (props) => {
+export const Mebelcompanidado = (props) => {
   return (
     <>
     <section className="bg-zinc-500 w-5/6 mx-auto px-8 pt-10">
@@ -8,5 +8,5 @@ export const Angelacompanidado = (props) => {
     </>
   )
 }
-export default Angelacompanidado;
+export default Mebelcompanidado;
      

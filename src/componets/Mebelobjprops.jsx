@@ -1,4 +1,4 @@
-const Angelaobjprops = (objprops) => {
+const Mebelobjprops = (objprops) => {
 
 
     const {nombre, apellido} = objprops
@@ -9,4 +9,4 @@ const Angelaobjprops = (objprops) => {
         </>
     )
 }
-export default Angelaobjprops;    
+export default Mebelobjprops;    
